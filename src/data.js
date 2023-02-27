@@ -1,3 +1,5 @@
+import React from 'react';
+
 // rooms images
 import Room1Img from './assets/img/rooms/1.png';
 import Room1ImgLg from './assets/img/rooms/1-lg.png';
