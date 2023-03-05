@@ -5,7 +5,7 @@ import "../datepicker.css";
 import { BsCalendar } from "react-icons/bs";
 
 const CheckOut = () => {
-  const [startDate, setStartDate] = useState(false);
+  const [endDate, setEndDate] = useState(false);
 
   return (
     <div className="relative flex items-center justify-end h-full">
@@ -16,9 +16,9 @@ const CheckOut = () => {
       </div>
       <DatePicker
         className="w-full h-full"
-        selected={startDate}
+        selected={endDate}
         placeholderText="Check out"
-        onChange={(date) => setStartDate(date)}
+        onChange={(date) => setEndDate(date)}
       />
     </div>
   );
