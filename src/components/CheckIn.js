@@ -15,7 +15,7 @@ const CheckIn = () => {
         </div>
       </div>
       <DatePicker
-        className="w-full h-full"
+        className="w-full h-full cursor-pointer"
         selected={startDate}
         placeholderText="Check in"
         onChange={(date) => setStartDate(date)}

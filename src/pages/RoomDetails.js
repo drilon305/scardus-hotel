@@ -63,9 +63,26 @@ const RoomDetails = () => {
           </div>
 
           {/* Right */}
-          <div className="w-full h-full lg:w-[40%] bg-blue-300">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quos
-            ab distinctio quis neque ullam.
+          <div className="w-full h-full lg:w-[40%]">
+            {/* Reservation */}
+            <div className='py-8 px-6 bg-accent/20 mb-12'>
+              <div className='flex flex-col space-y-4 mb-4'>
+                <h3>Your Reservation</h3>
+                <div className='h-[60px]'>
+                  <CheckIn />
+                </div>
+                <div className='h-[60px]'>
+                  <CheckOut />
+                </div>
+                <div className='h-[60px]'>
+                  <AdultsDropdown />
+                </div>
+                <div className='h-[60px]'>
+                  <KidsDropdown />
+                </div>
+              </div>
+              <button className='btn btn-lg btn-primary w-full'>book now for {price} </button>
+            </div>
           </div>
         </div>
       </div>
