@@ -83,6 +83,29 @@ const RoomDetails = () => {
               </div>
               <button className='btn btn-lg btn-primary w-full'>book now for {price} </button>
             </div>
+            <div>
+              <h3 className='h3'>Hotel Rules</h3>
+              <p className='mb-6'>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                 Quaerat magnam sunt suscipit enim reiciendis repellendus!</p>
+                 <ul className='flex flex-col gap-y-4'>
+                  <li className='flex items-center gap-x-4'>
+                    <FaCheck className='text-accent' />
+                    Check-in: 3:00 PM -  9:00 PM
+                  </li>
+                  <li className='flex items-center gap-x-4'>
+                    <FaCheck className='text-accent' />
+                    Check-out: 11:00 AM
+                  </li>
+                  <li className='flex items-center gap-x-4'>
+                    <FaCheck className='text-accent' />
+                    No Pets
+                  </li>
+                  <li className='flex items-center gap-x-4'>
+                    <FaCheck className='text-accent' />
+                  No Smoking
+                  </li>
+                 </ul>
+            </div>
           </div>
         </div>
       </div>
