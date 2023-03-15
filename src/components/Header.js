@@ -21,9 +21,9 @@ const Header = () => {
       <div className="container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between lg:gap-y-0">
         <a href="/">
           {header ? (
-            <img src={LogoDark} className="w[160px]" />
+            <img src={LogoDark} alt='logo dark' className="w[160px]" />
           ) : (
-            <img src={LogoWhite} className="w[160px]" />
+            <img src={LogoWhite} alt='white logo' className="w[160px]" />
           )}
         </a>
         <nav className={`${header ? "text-primary" : "text-white"} flex gap-x-4 font-tertiary
