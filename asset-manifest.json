@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/scardus-hotel/static/css/main.8d1a05be.css",
-    "main.js": "/scardus-hotel/static/js/main.35784bf3.js",
+    "main.js": "/scardus-hotel/static/js/main.f8e40267.js",
     "static/media/1.jpg": "/scardus-hotel/static/media/1.ebdcbd1e0b239b5e4ac1.jpg",
     "static/media/2.jpg": "/scardus-hotel/static/media/2.151cff65fc629c3bc5b7.jpg",
     "static/media/3.jpg": "/scardus-hotel/static/media/3.95edf8cfc905d640804a.jpg",
@@ -24,10 +24,10 @@
     "static/media/5.png": "/scardus-hotel/static/media/5.84f19999614e1d067a51.png",
     "index.html": "/scardus-hotel/index.html",
     "main.8d1a05be.css.map": "/scardus-hotel/static/css/main.8d1a05be.css.map",
-    "main.35784bf3.js.map": "/scardus-hotel/static/js/main.35784bf3.js.map"
+    "main.f8e40267.js.map": "/scardus-hotel/static/js/main.f8e40267.js.map"
   },
   "entrypoints": [
     "static/css/main.8d1a05be.css",
-    "static/js/main.35784bf3.js"
+    "static/js/main.f8e40267.js"
   ]
 }
