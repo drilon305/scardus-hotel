@@ -42,7 +42,7 @@ const HeroSlider = () => {
         const { title, bg, btnText } = slide;
         return (
           <SwiperSlide
-            className="h-full bg-pink-400 relative flex items-center justify-center"
+            className="h-full relative flex items-center justify-center"
             key={index}
           >
             <div className="z-20 text-white text-center">
